@@ -1,0 +1,392 @@
+{
+    "id": 33,
+    "name": "Test Roehnisch",
+    "starts_at": "2018-08-21T00:00:00.000Z",
+    "ends_at": "2019-08-28T00:00:00.000Z",
+    "created_at": "2018-08-21T09:21:54.000Z",
+    "updated_at": "2018-08-21T09:22:07.000Z",
+    "deleted_at": null,
+    "internal_id": "TR",
+    "naming_counter": 4,
+    "author_id": 5,
+    "active": true,
+    "archived_at": null,
+    "is_archived": false,
+    "participants_count": 3,
+    "whitelist": [
+        {
+            "id": 1452,
+            "study_id": 33,
+            "kind": "hostname",
+            "list": "white",
+            "hostname": "amazon.de",
+            "created_at": "2018-08-21T09:25:12.000Z",
+            "updated_at": "2018-08-21T09:25:12.000Z"
+        },
+        {
+            "id": 1454,
+            "study_id": 33,
+            "kind": "hostname",
+            "list": "white",
+            "hostname": "bing.com",
+            "created_at": "2018-08-21T09:28:29.000Z",
+            "updated_at": "2018-08-21T09:28:29.000Z"
+        },
+        {
+            "id": 1451,
+            "study_id": 33,
+            "kind": "hostname",
+            "list": "white",
+            "hostname": "ebay.de",
+            "created_at": "2018-08-21T09:25:03.000Z",
+            "updated_at": "2018-08-21T09:25:03.000Z"
+        },
+        {
+            "id": 1453,
+            "study_id": 33,
+            "kind": "hostname",
+            "list": "white",
+            "hostname": "google.de",
+            "created_at": "2018-08-21T09:28:21.000Z",
+            "updated_at": "2018-08-21T09:28:21.000Z"
+        }
+    ],
+    "blacklist": [
+        {
+            "id": 40,
+            "hostname": "&checkout",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:07:59.000Z",
+            "updated_at": "2018-08-03T08:07:59.000Z"
+        },
+        {
+            "id": 41,
+            "hostname": "&pass",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:08:15.000Z",
+            "updated_at": "2018-08-03T08:08:15.000Z"
+        },
+        {
+            "id": 44,
+            "hostname": "/address",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:09:40.000Z",
+            "updated_at": "2018-08-03T08:09:40.000Z"
+        },
+        {
+            "id": 45,
+            "hostname": "/anmelden",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:09:55.000Z",
+            "updated_at": "2018-08-03T08:09:55.000Z"
+        },
+        {
+            "id": 46,
+            "hostname": "/benutzerkonto",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:10:11.000Z",
+            "updated_at": "2018-08-03T08:10:11.000Z"
+        },
+        {
+            "id": 48,
+            "hostname": "/bestell",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:10:49.000Z",
+            "updated_at": "2018-08-03T08:10:49.000Z"
+        },
+        {
+            "id": 49,
+            "hostname": "/billing",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:11:56.000Z",
+            "updated_at": "2018-08-03T08:11:56.000Z"
+        },
+        {
+            "id": 50,
+            "hostname": "/buy",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:12:12.000Z",
+            "updated_at": "2018-08-03T08:12:12.000Z"
+        },
+        {
+            "id": 51,
+            "hostname": "/checkout",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:13:14.000Z",
+            "updated_at": "2018-08-03T08:13:14.000Z"
+        },
+        {
+            "id": 52,
+            "hostname": "/completeCustomerData",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:14:13.000Z",
+            "updated_at": "2018-08-03T08:14:13.000Z"
+        },
+        {
+            "id": 53,
+            "hostname": "/confirm",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:14:27.000Z",
+            "updated_at": "2018-08-03T08:14:27.000Z"
+        },
+        {
+            "id": 54,
+            "hostname": "/create_account",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:14:40.000Z",
+            "updated_at": "2018-08-03T08:14:40.000Z"
+        },
+        {
+            "id": 55,
+            "hostname": "/customer",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:14:54.000Z",
+            "updated_at": "2018-08-03T08:14:54.000Z"
+        },
+        {
+            "id": 56,
+            "hostname": "/delivery",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:15:06.000Z",
+            "updated_at": "2018-08-03T08:15:06.000Z"
+        },
+        {
+            "id": 57,
+            "hostname": "/erstanmeldung",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:15:18.000Z",
+            "updated_at": "2018-08-03T08:17:17.000Z"
+        },
+        {
+            "id": 58,
+            "hostname": "/invoice",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:15:30.000Z",
+            "updated_at": "2018-08-03T08:15:30.000Z"
+        },
+        {
+            "id": 59,
+            "hostname": "/jtl.php",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:15:41.000Z",
+            "updated_at": "2018-08-03T08:15:41.000Z"
+        },
+        {
+            "id": 60,
+            "hostname": "/kasse",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:15:53.000Z",
+            "updated_at": "2018-08-03T08:15:53.000Z"
+        },
+        {
+            "id": 61,
+            "hostname": "/kunde",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:16:05.000Z",
+            "updated_at": "2018-08-03T08:16:05.000Z"
+        },
+        {
+            "id": 63,
+            "hostname": "/logon",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:16:53.000Z",
+            "updated_at": "2018-08-03T08:17:12.000Z"
+        },
+        {
+            "id": 64,
+            "hostname": "/mein-konto",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:17:41.000Z",
+            "updated_at": "2018-08-03T08:17:41.000Z"
+        },
+        {
+            "id": 65,
+            "hostname": "/member",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:17:53.000Z",
+            "updated_at": "2018-08-03T08:17:53.000Z"
+        },
+        {
+            "id": 66,
+            "hostname": "/multiChannel",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:18:06.000Z",
+            "updated_at": "2018-08-03T08:28:14.000Z"
+        },
+        {
+            "id": 67,
+            "hostname": "/myb",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:18:18.000Z",
+            "updated_at": "2018-08-03T08:18:18.000Z"
+        },
+        {
+            "id": 68,
+            "hostname": "/newcustomer",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:18:31.000Z",
+            "updated_at": "2018-08-03T08:18:31.000Z"
+        },
+        {
+            "id": 69,
+            "hostname": "/newuser",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:18:43.000Z",
+            "updated_at": "2018-08-03T08:18:43.000Z"
+        },
+        {
+            "id": 70,
+            "hostname": "/onestepcheckout",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:20:20.000Z",
+            "updated_at": "2018-08-03T08:20:20.000Z"
+        },
+        {
+            "id": 71,
+            "hostname": "/order",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:20:34.000Z",
+            "updated_at": "2018-08-03T08:20:34.000Z"
+        },
+        {
+            "id": 38,
+            "hostname": "/pay",
+            "kind": "keyword",
+            "created_at": "2018-07-11T11:22:23.000Z",
+            "updated_at": "2018-08-03T08:20:57.000Z"
+        },
+        {
+            "id": 72,
+            "hostname": "/profil",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:21:09.000Z",
+            "updated_at": "2018-08-03T08:21:09.000Z"
+        },
+        {
+            "id": 73,
+            "hostname": "/regist",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:21:32.000Z",
+            "updated_at": "2018-08-03T08:21:32.000Z"
+        },
+        {
+            "id": 74,
+            "hostname": "/s2dlogin",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:21:49.000Z",
+            "updated_at": "2018-08-03T08:21:49.000Z"
+        },
+        {
+            "id": 75,
+            "hostname": "/s2dpayment",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:22:00.000Z",
+            "updated_at": "2018-08-03T08:22:00.000Z"
+        },
+        {
+            "id": 76,
+            "hostname": "/sepa",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:22:19.000Z",
+            "updated_at": "2018-08-03T08:22:19.000Z"
+        },
+        {
+            "id": 77,
+            "hostname": "/shipping",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:22:41.000Z",
+            "updated_at": "2018-08-03T08:22:41.000Z"
+        },
+        {
+            "id": 78,
+            "hostname": "/shopcustregister",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:22:53.000Z",
+            "updated_at": "2018-08-03T08:22:53.000Z"
+        },
+        {
+            "id": 79,
+            "hostname": "/signup",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:23:03.000Z",
+            "updated_at": "2018-08-03T08:23:03.000Z"
+        },
+        {
+            "id": 80,
+            "hostname": "/stammdaten",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:23:15.000Z",
+            "updated_at": "2018-08-03T08:23:15.000Z"
+        },
+        {
+            "id": 81,
+            "hostname": "/summary",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:23:25.000Z",
+            "updated_at": "2018-08-03T08:23:25.000Z"
+        },
+        {
+            "id": 82,
+            "hostname": "/warenkorb-meine-daten",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:23:36.000Z",
+            "updated_at": "2018-08-03T08:23:36.000Z"
+        },
+        {
+            "id": 87,
+            "hostname": "=ViewRegistration",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:24:43.000Z",
+            "updated_at": "2018-08-03T08:24:43.000Z"
+        },
+        {
+            "id": 84,
+            "hostname": "=create",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:24:01.000Z",
+            "updated_at": "2018-08-03T08:27:16.000Z"
+        },
+        {
+            "id": 86,
+            "hostname": "=regist",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:24:30.000Z",
+            "updated_at": "2018-08-03T08:25:06.000Z"
+        },
+        {
+            "id": 88,
+            "hostname": "account",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:25:25.000Z",
+            "updated_at": "2018-08-03T08:25:25.000Z"
+        },
+        {
+            "id": 91,
+            "hostname": "email",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:29:12.000Z",
+            "updated_at": "2018-08-03T08:32:48.000Z"
+        },
+        {
+            "id": 62,
+            "hostname": "login",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:16:37.000Z",
+            "updated_at": "2018-08-03T08:29:52.000Z"
+        },
+        {
+            "id": 90,
+            "hostname": "order",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:28:58.000Z",
+            "updated_at": "2018-08-03T08:32:17.000Z"
+        },
+        {
+            "id": 92,
+            "hostname": "paypal",
+            "kind": "keyword",
+            "created_at": "2018-08-03T08:30:23.000Z",
+            "updated_at": "2018-08-03T08:30:23.000Z"
+        }
+    ]
+}
