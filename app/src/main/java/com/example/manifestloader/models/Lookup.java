@@ -2,7 +2,7 @@ package com.example.manifestloader.models;
 
 import com.google.gson.annotations.SerializedName;
 
-public class TLookup {
+public class Lookup {
 
     public String getHostname() {
         return mHostname;
@@ -55,6 +55,7 @@ public class TLookup {
     private String mCreatedAt;
     @SerializedName("updated_at")
     private String mUpdatedAt;
+
 //    "id": 49,
 //    "hostname": "/billing",
 //    "kind": "keyword",

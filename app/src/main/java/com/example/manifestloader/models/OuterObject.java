@@ -62,11 +62,11 @@ public class OuterObject {
         return mParticipantsCount;
     }
 
-    public List<TLookup> getWhitelist() {
+    public List<Lookup> getWhitelist() {
         return mWhitelist;
     }
 
-    public List<TLookup> getBlacklist() {
+    public List<Lookup> getBlacklist() {
         return mBlacklist;
     }
 
@@ -98,9 +98,9 @@ public class OuterObject {
     @SerializedName("participants_count")
     private int mParticipantsCount;
     @SerializedName("whitelist")
-    private List<TLookup> mWhitelist;
+    private List<Lookup> mWhitelist;
     @SerializedName("blacklist")
-    private List<TLookup> mBlacklist;
+    private List<Lookup> mBlacklist;
 
 //    "id": 33,
 //    "name": "Test Roehnisch",

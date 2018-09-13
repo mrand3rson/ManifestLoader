@@ -5,34 +5,25 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-public class DatabaseHelper extends SQLiteOpenHelper {
+import com.example.manifestloader.db.table.TLookup;
+
+public class Database extends SQLiteOpenHelper {
 
     private final String LOG_TAG = getClass().getSimpleName();
 
     private static final int DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME = "name.db";
-    private static DatabaseHelper sInstance;
-
-    public static final String PK_ID = "id";
-
-    public static final String IHOSTNAME = "hostname";
-    public static final String IKIND = "kind";
-    public static final String ILIST = "list";
-    public static final String ICREATED_AT = "created_at";
-    public static final String IUPDATED_AT = "updated_at";
-
-    public static final String FK_STUDYID = "study_id";
-
+    private static final String DATABASE_NAME = "name.db"; //TODO: rename database
+    private static Database sInstance;
     public static final String TLOOKUP = "TLookup";
 
 
-    private DatabaseHelper(Context context) {
+    private Database(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
-    public static synchronized DatabaseHelper getInstance(Context context) {
+    public static synchronized Database getInstance(Context context) {
         if (sInstance == null) {
-            sInstance = new DatabaseHelper(context.getApplicationContext());
+            sInstance = new Database(context.getApplicationContext());
         }
         return sInstance;
     }
@@ -40,13 +31,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         final String TBUILD_LOOKUP = "CREATE TABLE " + TLOOKUP + "("
-                + PK_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+                + TLookup.PK_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
 //                + FK_STUDYID + " INTEGER NULL, "
-                + IHOSTNAME + " TEXT NULL, "
-                + IKIND + " TEXT NOT NULL, "
-                + ILIST + " TEXT NULL, "
-                + ICREATED_AT + " DATETIME NULL, "
-                + IUPDATED_AT + " DATETIME NULL"
+                + TLookup.IHOSTNAME + " TEXT NULL, "
+                + TLookup.IKIND + " TEXT NOT NULL, "
+                + TLookup.ILIST + " TEXT NULL, "
+                + TLookup.ICREATED_AT + " DATETIME NULL, "
+                + TLookup.IUPDATED_AT + " DATETIME NULL"
                 //A.S. TODO: add foreign key relationship
 //                "FOREIGN KEY(" + FK_STUDYID + ") " + "REFERENCES " + T%%% + "(" + PK%%% + ")"
                 + ");";
