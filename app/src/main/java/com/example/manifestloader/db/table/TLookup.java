@@ -24,7 +24,7 @@ public class TLookup {
 
 
     public static List<Lookup> getContent() {
-        SQLiteDatabase db = ManifestLoaderApplication.getDatabase().getWritableDatabase();
+        SQLiteDatabase db = ManifestLoaderApplication.getDatabase().getReadableDatabase();
         try (Cursor c = db.query(TLOOKUP, null, null, null, null, null, null)) {
             if (c.getCount() > 0) {
                 List<Lookup> results = new ArrayList<>();
